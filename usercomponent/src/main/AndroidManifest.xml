@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wzmt.usercomponent" >
+
+    <application
+        android:theme="@style/AppTheme">
+
+<!--合并的组件  不得出现默认启动页 否则手机上会出现这个组件的logo-->
+<!--        <activity android:name=".MainActivity">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
+        <activity android:name=".activity.MainActivity"/>
+        <activity android:name=".activity.UserAc"/>
+        <activity android:name=".activity.needlogin.MyInfoAc"/>
+
+    </application>
+</manifest>

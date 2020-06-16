@@ -1,0 +1,2 @@
+include ':app', ':commonlib', ':shopcomponent', ':usercomponent'
+rootProject.name='ComponentDemo'
